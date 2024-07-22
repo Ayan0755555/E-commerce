@@ -47,7 +47,9 @@ function App() {
     userId: "",
   });
 
-  const [baseUrl, setBaseUrl] = useState("https://all-in-oneserver.vercel.app");
+  const [baseUrl, setBaseUrl] = useState(
+    "https://fullstackecommerce-ser.onrender.com"
+  );
 
   const [progress, setProgress] = useState(0);
   const [alertBox, setAlertBox] = useState({
